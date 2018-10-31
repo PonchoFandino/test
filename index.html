@@ -52,6 +52,34 @@ p{
 </style>  
   </head>
   <body>
+    <script>
+                 
+    function count(str, char){
+        var i=0;
+        var cuantas=0;
+        while(i != -1){
+        var i = str.indexOf(char,i);
+        if (i != -1){
+            i++;
+            cuantas++;
+        } 
+        console.log(cuantas)
+                }
+        }
+            count("Gabriela","l")
+
+    function filter(numeros){
+       return numeros >=10; 
+       } let filtrar = [87, 8, 10, 60, 90, 6].filter(filter);
+        console.log(filtrar);
+
+    function hypotenuse(a, b){
+       Math.hypot(a, b);
+        console.log( Math.hypot(a, b))
+        }
+        hypotenuse(7, 8)
+
+    </script>
    <div id="root"></div>
     <div  class="preCenter">
         <div class="center">
